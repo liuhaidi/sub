@@ -1,89 +1,97 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>表格1</title>
+	<title>实验五</title>
 	<meta charset="utf-8" />
 </head>
 <body>
-      <table border="1" cellpadding="0" cellspacing="0" width="1000px" height="400px">
-      <caption>简洁易用的个人简历表模板</caption>
-      	<tr>
-      		<th colspan="2">姓 名</th>
-      		<th colspan="4">&nbsp</th>
-      		<th colspan="2">性 别</th>
-      		<th colspan="4">&nbsp</th>
-      	</tr>
-      <tr>
-      	    <th colspan="2">本人联系地址</th>
-      		<th colspan="4">&nbsp</th>
-      		<th colspan="2">民 族</th>
-      		<th colspan="4">&nbsp</th>
-      </tr>
-       <tr>
-      	    <th colspan="2">家庭详细地址</th>
-      		<th colspan="4">&nbsp</th>
-      		<th colspan="2">出生日期</th>
-      		<th colspan="4">&nbsp</th>
-      </tr>
-       <tr>
-      	    <th colspan="2">婚姻状况</th>
-      		<th colspan="4">&nbsp</th>
-      		<th colspan="2">身 高</th>
-      		<th colspan="4">&nbsp</th>
-      </tr>
-       <tr>
-      	    <th colspan="2">联系电话</th>
-      		<th colspan="4">&nbsp</th>
-      		<th colspan="2">邮 箱</th>
-      		<th colspan="4">&nbsp</th>
-      </tr>
-      <tr>
-      	    <th colspan="2">通信地址</th>
-      	    <th colspan="7">&nbsp</th>
-      	    <th colspan="1">邮箱</th>
-      	    <th colspan="2">&nbsp</th>
-      </tr>
-      <tr>
-      	    <th colspan="12">求职意向：&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</th>
-      </tr>
-      <tr>
-      	    <th colspan="2">毕业院校</th>
-      	    <th colspan="10">&nbsp</th>
-      </tr>
-      <tr>
-      	    <th colspan="2">学 历</th>
-      	    <th colspan="5">&nbsp</th>
-      	    <th colspan="2">毕业日期</th>
-      	    <th colspan="3">&nbsp</th>
-      </tr>
-      <tr>
-      	    <th colspan="2">专 业</th>
-      	    <th colspan="5">&nbsp</th>
-      	    <th colspan="2">计算机水平</th>
-      	    <th colspan="3">&nbsp</th>
-      </tr>
-      <tr>
-      	   <th colspan="2" rowspan="2">证 书</th>
-      	   <th colspan="10" rowspan="2">c1汽车驾驶证、报关员证、会计证、电工证</th>       	    
-      </tr>
-      <tr></tr>
-      <tr>
-      	   <th colspan="2" rowspan="3">工作经历</th>
-      	   <th colspan="9">2011年在XX公司实习三个月</th>
-      	   
-      </tr>
-      <tr>
-      	   <th colspan="9">2012年在XX公司实习三个月</th>
-      </tr>
-      <tr>
-      	   <th colspan="9">2012年在XX公司实习三个月</th>
-      </tr>
-      <tr>
-      	   <th colspan="11">自 我 评 价</th>
-      </tr>
-      <tr>
-      	   <th colspan="11">本人为人诚恳，思想积极向上，性格开朗，积极进取，有较强的团队精神</th>
-      </tr>
+       <form>
+       <table border="1">
+       <!-- <thead>
+	       <tr>
+		       <td colspan="2" align="center">用户登录</td>
+	       </tr>
+	    </thead>
+	       <tr>
+	       	   <td align="left">用户名：</td>
+	       	   <td><input type="name" name="name"></td>
+	       </tr>
+	       <tr>
+	           <td align="left">密码：</td>
+	       	   <td><input type="possword" name="possword"></td>
+	       </tr>
+	       <tr>
+	       	   <td colspan="2" align="center"><input type="button" value="登录"><input type="button" value="注册"></td>
+
+	       </tr>
+        
+ -->   
+        <thead>
+        	<tr>
+        		<td align="left">用户名：</td>
+        		<td align="left"><input type="name" name="name"></td>
+        	</tr>
+        </thead>
+            <tr>
+            	<td align="left">密码:</td>
+            	<td align="left"><input type="possword" name="possword"></td>
+            </tr>
+            <tr>
+            	<td align="left">性别:</td>
+            	<td align="left">男<input type="radio" name="max" value="男">女<input type="radio" mame="max" value="女"></td>
+            </tr>
+            <tr>
+            	<td align="left">生日：</td>
+            	<td align="left"><select name="公历"><option value="first">公历</option></select>
+            	                 <select name="年"><option value="first">年</option></select>
+            	                 <select name="月"><option value="first">月</option></select>
+            	                 <select name="日"><option value="first">日</option></select>
+            	</td>
+            </tr>
+            <tr>
+            	<td align="left">所在地：</td>
+            	<td align="left"><select name="中国"><option value="first">中国</option></select>
+            	                 <select name="河北"><option value="first">河北</option></select>
+            	                 <select name="石家庄"><option value="first">石家庄</option></select>
+            	</td>
+            </tr>
+            <tr>
+            	<td align="left">验证码：</td>
+            	<td align="left"><input type="word" name="word"></td>
+            </tr>
+            <tr>
+            	<td align="left">证件类型：</td>
+            	<td align="left"> <select name="身份证"><option value="first">身份证</option></select></td>
+            </tr>
+            <tr>
+            	<td align="left">证件号：</td>
+            	<td align="left"><input type="word" name="word"></td>
+            </tr>
+            <tr>
+            	<td align="left">爱好：</td>
+            	<td align="left"><input type="checkbox" name="misic">音乐
+            	                 <input type="checkbox" name="book">读书
+            	                 <input type="checkbox" name="dance">跳舞
+            	                 <input type="checkbox" name="xiaqi">下棋
+            	                 <input type="checkbox" name="other">其他
+            	</td>
+            </tr>
+            <tr>
+            	<td rowspan="3" align="left">&nbsp<br>说明：</td>
+            	<td rowspan="3" align="left"><textarea rows="3"></textarea></td>
+            </tr>
+            <tr></tr>
+            <tr></tr>
+            <tr>
+            	<td align="left">上传头像</td>
+            	<td align="left"><input type="file" name="ding"></td>
+            </tr>
+            <tr>
+            	<td colspan="2" align="center"><input type="button" value="提交"><input type="button" value="重置"><input type="button" value="按钮"></td>
+            </tr>
+	
+</table>
+</form>
 
 </body>
-</html>
+</html> 
