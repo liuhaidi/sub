@@ -1,0 +1,178 @@
+#header{
+	width: 100%;
+	height: 100px;
+	background-color: #A9A9A9;
+}
+.logo{
+	width: 30%;
+	height: 90px;
+	float: left;
+	margin-top: 10px;
+	margin-left: 150px;
+}
+.logo img{
+	float: left;
+}
+.logo input{
+	margin-top: 10px;
+}
+.sousuo a{
+    color: black;
+}   
+.sousuo{
+   width: 35%;
+   height: 50px;
+   float: left;
+   margin-top: 50px;
+}
+.biaodan{
+	width: 20%;
+	height: 50px;
+	float: right;
+	margin-top: 50px;
+}
+#header1{
+	width: 100%;
+	height: 50px;
+	background-color: #2F4F4F;
+}
+.one1{
+	width: 60%;
+	height: 50px;
+	float: left;
+	margin:0px;
+}
+.one2{
+	width: 38%;
+	height: 50px;
+	float: left;
+	margin:0px;
+}
+.one1 ul li{
+	list-style: none;
+	float: left;
+	width: 120px;
+}
+.one1 ul li a{
+    font:normal bold 20px 楷体;
+    color: #fff;
+}
+a:link{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+a:visit{
+	text-decoration: blink;
+}
+a:active{
+	text-decoration: underline;
+}
+.one2 ul li{
+    list-style: none;
+	float: left;
+	width: 80px;
+}
+.one2 ul li a{
+    font:normal bold 13px;
+    color: #fff;
+}
+#header2{
+	width: 100%;
+	height: 410px;
+	margin-bottom: 10px;
+}
+.two1{
+	width: 25%;
+	height: 400px;
+	float: left;
+	margin-right: 0px;
+	margin-bottom: 10px;
+}
+.two2{
+	width: 50%;
+	height: 400px;
+	float: left;
+	margin-right: 0px;
+	margin-bottom: 10px;
+}
+.two3{
+	width: 25%;
+	height: 400px;
+	float: right;
+	margin-bottom: 10px;
+}
+#header3{
+	width: 100%;
+	height: 200px;
+    background-color: #A9A9A9;
+}
+.three1{
+	width: 20%;
+	height: 200px;
+	float: left;
+}
+.three1 ul li{
+    list-style: none;
+	float: left;
+	width: 50px; 
+}
+.three1 ul li a{
+	color: #000000;
+}
+.three2{
+	width: 20%;
+	height: 200px;
+	float: left;
+}
+.three2 ul li{
+    list-style: none;
+	float: left;
+	width: 50px; 
+}
+.three2 ul li a{
+	color: #000000;
+}
+.three3{
+	width: 20%;
+	height: 200px;
+	float: left;
+}
+.three3 ul li{
+    list-style: none;
+	float: left;
+	width: 50px; 
+}
+.three3 ul li a{
+	color: #000000;
+}
+.three4{
+	width: 20%;
+	height: 200px;
+	float: left;
+}
+.three4 ul li{
+    list-style: none;
+	float: left;
+	width: 50px; 
+}
+.three4 ul li a{
+	color: #000000;
+}
+.three5{
+	width: 20%;
+	height: 200px;
+	float: left;
+}
+.three5 ul li{
+    list-style: none;
+	float: left;
+	width: 50px; 
+}
+.three5 ul li a{
+	color: #000000;
+}
+
+
+
